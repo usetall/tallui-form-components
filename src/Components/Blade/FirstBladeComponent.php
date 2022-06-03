@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace VendorName\Skeleton\Components\Blade;
+namespace Usetall\TalluiFormComponents\Components\Blade;
 
 use Illuminate\Contracts\View\View;
-use VendorName\Skeleton\Components\BladeComponent;
+use Usetall\TalluiFormComponents\Components\BladeComponent;
 
 class FirstBladeComponent extends BladeComponent
 {
@@ -22,6 +22,6 @@ class FirstBladeComponent extends BladeComponent
 
     public function render(): View
     {
-        return view(':builder::components.blade.first-blade-component');
+        return view('tallui-form-components::components.blade.first-blade-component');
     }
 }

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace VendorName\Skeleton;
+namespace Usetall\TalluiFormComponents;
 
-final class Skeleton
+final class TalluiFormComponents
 {
     /** @var array */
     private static $styles = [];

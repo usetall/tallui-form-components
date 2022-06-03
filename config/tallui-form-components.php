@@ -1,5 +1,5 @@
 <?php
-use VendorName\Skeleton\Components;
+use Usetall\TalluiFormComponents\Components;
 
 return [
 
@@ -9,7 +9,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | Below you reference all components that should be loaded for your app.
-    | By default all components from :package_name are loaded in. You can
+    | By default all components from tallui-form-components are loaded in. You can
     | disable or overwrite any component class or alias that you want.
     |
     */
@@ -24,7 +24,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | Below you reference all the Livewire components that should be loaded
-    | for your app. By default all components from :package_name are loaded in.
+    | for your app. By default all components from tallui-form-components are loaded in.
     |
     */
 
@@ -37,7 +37,7 @@ return [
     | Components Prefix
     |--------------------------------------------------------------------------
     |
-    | This value will set a prefix for all :package_name components.
+    | This value will set a prefix for all tallui-form-components components.
     | By default it's empty. This is useful if you want to avoid
     | collision with or otherwise overwrite core components.
     |

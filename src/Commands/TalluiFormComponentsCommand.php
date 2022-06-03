@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Usetall\TalluiFormComponents\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class TalluiFormComponentsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'tallui-form-components';
 
     public $description = 'My command';
 

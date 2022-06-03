@@ -1,22 +1,22 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "usetall/tallui-form-components",
+    "description": "This is my package tallui-form-components",
     "keywords": [
-        ":vendor_name",
+        "usetall",
         "laravel",
-        ":package_slug",
+        "tallui-form-components",
         "tall-stack",
         "tailwindcss",
         "alpinejs",
         "livewire",
         "admin"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/usetall/tallui-form-components",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "TallUI Developers",
+            "email": "devs@tallui.io",
             "role": "Developer"
         }
     ],
@@ -46,13 +46,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Usetall\\TalluiFormComponents\\": "src",
+            "Usetall\\TalluiFormComponents\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Usetall\\TalluiFormComponents\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -67,10 +67,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Usetall\\TalluiFormComponents\\TalluiFormComponentsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "TalluiFormComponents": "Usetall\\TalluiFormComponents\\Facades\\TalluiFormComponents"
             }
         }
     },

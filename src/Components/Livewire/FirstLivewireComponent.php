@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace VendorName\Skeleton\Components\Livewire;
+namespace Usetall\TalluiFormComponents\Components\Livewire;
 
 use Illuminate\Contracts\View\View;
-use VendorName\Skeleton\Components\LivewireComponent;
+use Usetall\TalluiFormComponents\Components\LivewireComponent;
 
 class FirstLivewireComponent extends LivewireComponent
 {
@@ -22,6 +22,6 @@ class FirstLivewireComponent extends LivewireComponent
 
     public function render(): View
     {
-        return view(':builder::components.livewire.first-livewire-component');
+        return view('tallui-form-components::components.livewire.first-livewire-component');
     }
 }
