@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Usetall\TalluiFormComponents\Components\Forms;
 
-use Illuminate\Contracts\View\View;
 use Usetall\TalluiFormComponents\Components\BladeComponent;
+use Illuminate\Contracts\View\View;
 
 class Form extends BladeComponent
 {
